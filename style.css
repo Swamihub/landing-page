@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav li.search {
+  position: relative;
+}
+
+.nav li.search input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.nav li.search button {
+  padding: 5px;
+  border: none;
+  background-color: #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav li.search button img {
+  width: 10px;
+  height: 10px;
+}
+
+.nav li.cart a {
+  position: relative;
+}
+
+.nav li.cart a::after {
+  content: url("cart.png");
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.main {
+  padding: 40;
+}
